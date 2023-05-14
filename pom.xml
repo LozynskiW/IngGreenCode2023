@@ -52,7 +52,11 @@
 			<artifactId>maven-filtering</artifactId>
 			<version>3.3.1</version>
 		</dependency>
-
+		<dependency>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-resources-plugin</artifactId>
+			<version>3.2.0</version>
+		</dependency>
 
 	</dependencies>
 
@@ -61,10 +65,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<executions>
-					<execution>
-					</execution>
-				</executions>
 				<configuration>
 					<excludes>
 						<exclude>
@@ -72,7 +72,6 @@
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
-					<mainClass>src.main.java.ing.Application</mainClass>
 				</configuration>
 			</plugin>
 		</plugins>
