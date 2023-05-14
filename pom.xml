@@ -12,7 +12,7 @@
 	<artifactId>greencode2023</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ATMService</name>
-	<description>Solution for ATMService task</description>
+	<description>Solution for ING green code exercise</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -41,6 +41,11 @@
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-jpa</artifactId>
 			<version>3.0.5</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.15.0</version>
 		</dependency>
 
 	</dependencies>
