@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.7.3" sequence="0" timestamp="1684668045026" analysisTimestamp="1684668442785" release="">
+  <Project projectName="IngGreenCode">
+    <Jar>D:\java\ing</Jar>
+  </Project>
+  <BugInstance type="SE_COMPARATOR_SHOULD_BE_SERIALIZABLE" priority="2" rank="19" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="ing.atmservice.comparators.ATMModelPriorityComparator">
+      <SourceLine classname="ing.atmservice.comparators.ATMModelPriorityComparator" start="7" end="11" sourcefile="ATMModelPriorityComparator.java" sourcepath="ing/atmservice/comparators/ATMModelPriorityComparator.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SE_COMPARATOR_SHOULD_BE_SERIALIZABLE" priority="2" rank="19" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="ing.atmservice.comparators.ATMModelRegionComparator">
+      <SourceLine classname="ing.atmservice.comparators.ATMModelRegionComparator" start="7" end="11" sourcefile="ATMModelRegionComparator.java" sourcepath="ing/atmservice/comparators/ATMModelRegionComparator.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SE_NO_SERIALVERSIONID" priority="3" rank="19" abbrev="SnVI" category="BAD_PRACTICE">
+    <Class classname="ing.onlinegame.schemas.Clan">
+      <SourceLine classname="ing.onlinegame.schemas.Clan" start="15" end="53" sourcefile="Clan.java" sourcepath="ing/onlinegame/schemas/Clan.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SE_COMPARATOR_SHOULD_BE_SERIALIZABLE" priority="2" rank="19" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="ing.onlinegame.schemas.Clan$ClansByNumberOfPlayersComparator">
+      <SourceLine classname="ing.onlinegame.schemas.Clan$ClansByNumberOfPlayersComparator" start="42" end="47" sourcefile="Clan.java" sourcepath="ing/onlinegame/schemas/Clan.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SE_COMPARATOR_SHOULD_BE_SERIALIZABLE" priority="2" rank="19" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="ing.onlinegame.schemas.Clan$ClansByPointsComparator">
+      <SourceLine classname="ing.onlinegame.schemas.Clan$ClansByPointsComparator" start="34" end="38" sourcefile="Clan.java" sourcepath="ing/onlinegame/schemas/Clan.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE">
+    <Class classname="ing.onlinegame.schemas.Group">
+      <SourceLine classname="ing.onlinegame.schemas.Group" sourcefile="Group.java" sourcepath="ing/onlinegame/schemas/Group.java"/>
+    </Class>
+    <Method classname="ing.onlinegame.schemas.Group" name="getClansList" signature="()Ljava/util/List;" isStatic="false">
+      <SourceLine classname="ing.onlinegame.schemas.Group" start="11" end="11" startBytecode="0" endBytecode="46" sourcefile="Group.java" sourcepath="ing/onlinegame/schemas/Group.java"/>
+    </Method>
+    <Field classname="ing.onlinegame.schemas.Group" name="clansList" signature="Ljava/util/List;" isStatic="false">
+      <SourceLine classname="ing.onlinegame.schemas.Group" sourcefile="Group.java" sourcepath="ing/onlinegame/schemas/Group.java"/>
+    </Field>
+    <SourceLine classname="ing.onlinegame.schemas.Group" start="11" end="11" startBytecode="4" endBytecode="4" sourcefile="Group.java" sourcepath="ing/onlinegame/schemas/Group.java"/>
+  </BugInstance>
+  <BugInstance type="SE_NO_SERIALVERSIONID" priority="3" rank="19" abbrev="SnVI" category="BAD_PRACTICE">
+    <Class classname="ing.onlinegame.schemas.Group">
+      <SourceLine classname="ing.onlinegame.schemas.Group" start="9" end="42" sourcefile="Group.java" sourcepath="ing/onlinegame/schemas/Group.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE">
+    <Class classname="ing.onlinegame.schemas.Order">
+      <SourceLine classname="ing.onlinegame.schemas.Order" sourcefile="Order.java" sourcepath="ing/onlinegame/schemas/Order.java"/>
+    </Class>
+    <Method classname="ing.onlinegame.schemas.Order" name="getGroupsOrder" signature="()Ljava/util/List;" isStatic="false">
+      <SourceLine classname="ing.onlinegame.schemas.Order" start="24" end="24" startBytecode="0" endBytecode="46" sourcefile="Order.java" sourcepath="ing/onlinegame/schemas/Order.java"/>
+    </Method>
+    <Field classname="ing.onlinegame.schemas.Order" name="groupsList" signature="Ljava/util/List;" isStatic="false">
+      <SourceLine classname="ing.onlinegame.schemas.Order" sourcefile="Order.java" sourcepath="ing/onlinegame/schemas/Order.java"/>
+    </Field>
+    <SourceLine classname="ing.onlinegame.schemas.Order" start="24" end="24" startBytecode="4" endBytecode="4" sourcefile="Order.java" sourcepath="ing/onlinegame/schemas/Order.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE">
+    <Class classname="ing.onlinegame.schemas.Players">
+      <SourceLine classname="ing.onlinegame.schemas.Players" sourcefile="Players.java" sourcepath="ing/onlinegame/schemas/Players.java"/>
+    </Class>
+    <Method classname="ing.onlinegame.schemas.Players" name="getClans" signature="()Ljava/util/LinkedList;" isStatic="false">
+      <SourceLine classname="ing.onlinegame.schemas.Players" start="29" end="29" startBytecode="0" endBytecode="46" sourcefile="Players.java" sourcepath="ing/onlinegame/schemas/Players.java"/>
+    </Method>
+    <Field classname="ing.onlinegame.schemas.Players" name="clans" signature="Ljava/util/LinkedList;" isStatic="false">
+      <SourceLine classname="ing.onlinegame.schemas.Players" sourcefile="Players.java" sourcepath="ing/onlinegame/schemas/Players.java"/>
+    </Field>
+    <SourceLine classname="ing.onlinegame.schemas.Players" start="29" end="29" startBytecode="4" endBytecode="4" sourcefile="Players.java" sourcepath="ing/onlinegame/schemas/Players.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE">
+    <Class classname="ing.onlinegame.schemas.Players">
+      <SourceLine classname="ing.onlinegame.schemas.Players" sourcefile="Players.java" sourcepath="ing/onlinegame/schemas/Players.java"/>
+    </Class>
+    <Method classname="ing.onlinegame.schemas.Players" name="&lt;init&gt;" signature="(ILjava/util/LinkedList;)V" isStatic="false">
+      <SourceLine classname="ing.onlinegame.schemas.Players" start="14" end="14" startBytecode="0" endBytecode="94" sourcefile="Players.java" sourcepath="ing/onlinegame/schemas/Players.java"/>
+    </Method>
+    <Field classname="ing.onlinegame.schemas.Players" name="clans" signature="Ljava/util/LinkedList;" isStatic="false">
+      <SourceLine classname="ing.onlinegame.schemas.Players" sourcefile="Players.java" sourcepath="ing/onlinegame/schemas/Players.java"/>
+    </Field>
+    <LocalVariable name="clans" register="2" pc="11" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="ing.onlinegame.schemas.Players" start="14" end="14" startBytecode="11" endBytecode="11" sourcefile="Players.java" sourcepath="ing/onlinegame/schemas/Players.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE">
+    <Class classname="ing.transactions.controllers.TransactionController">
+      <SourceLine classname="ing.transactions.controllers.TransactionController" sourcefile="TransactionController.java" sourcepath="ing/transactions/controllers/TransactionController.java"/>
+    </Class>
+    <Method classname="ing.transactions.controllers.TransactionController" name="&lt;init&gt;" signature="(Ling/transactions/services/TransactionService;Ling/transactions/services/AccountService;)V" isStatic="false">
+      <SourceLine classname="ing.transactions.controllers.TransactionController" start="27" end="30" startBytecode="0" endBytecode="88" sourcefile="TransactionController.java" sourcepath="ing/transactions/controllers/TransactionController.java"/>
+    </Method>
+    <Field classname="ing.transactions.controllers.TransactionController" name="accountService" signature="Ling/transactions/services/AccountService;" isStatic="false">
+      <SourceLine classname="ing.transactions.controllers.TransactionController" sourcefile="TransactionController.java" sourcepath="ing/transactions/controllers/TransactionController.java"/>
+    </Field>
+    <LocalVariable name="accountService" register="2" pc="11" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="ing.transactions.controllers.TransactionController" start="29" end="29" startBytecode="11" endBytecode="11" sourcefile="TransactionController.java" sourcepath="ing/transactions/controllers/TransactionController.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE">
+    <Class classname="ing.transactions.schemas.Accounts">
+      <SourceLine classname="ing.transactions.schemas.Accounts" sourcefile="Accounts.java" sourcepath="ing/transactions/schemas/Accounts.java"/>
+    </Class>
+    <Method classname="ing.transactions.schemas.Accounts" name="getAccountList" signature="()Ljava/util/List;" isStatic="false">
+      <SourceLine classname="ing.transactions.schemas.Accounts" start="14" end="14" startBytecode="0" endBytecode="46" sourcefile="Accounts.java" sourcepath="ing/transactions/schemas/Accounts.java"/>
+    </Method>
+    <Field classname="ing.transactions.schemas.Accounts" name="accountList" signature="Ljava/util/List;" isStatic="false">
+      <SourceLine classname="ing.transactions.schemas.Accounts" sourcefile="Accounts.java" sourcepath="ing/transactions/schemas/Accounts.java"/>
+    </Field>
+    <SourceLine classname="ing.transactions.schemas.Accounts" start="14" end="14" startBytecode="4" endBytecode="4" sourcefile="Accounts.java" sourcepath="ing/transactions/schemas/Accounts.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE">
+    <Class classname="ing.transactions.schemas.Transactions">
+      <SourceLine classname="ing.transactions.schemas.Transactions" sourcefile="Transactions.java" sourcepath="ing/transactions/schemas/Transactions.java"/>
+    </Class>
+    <Method classname="ing.transactions.schemas.Transactions" name="getTransactionsList" signature="()Ljava/util/List;" isStatic="false">
+      <SourceLine classname="ing.transactions.schemas.Transactions" start="19" end="19" startBytecode="0" endBytecode="46" sourcefile="Transactions.java" sourcepath="ing/transactions/schemas/Transactions.java"/>
+    </Method>
+    <Field classname="ing.transactions.schemas.Transactions" name="transactionsList" signature="Ljava/util/List;" isStatic="false">
+      <SourceLine classname="ing.transactions.schemas.Transactions" sourcefile="Transactions.java" sourcepath="ing/transactions/schemas/Transactions.java"/>
+    </Field>
+    <SourceLine classname="ing.transactions.schemas.Transactions" start="19" end="19" startBytecode="4" endBytecode="4" sourcefile="Transactions.java" sourcepath="ing/transactions/schemas/Transactions.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="2">
+    <MissingClass>com.fasterxml.jackson.core.io.BigDecimalParser</MissingClass>
+    <MissingClass>org.springframework.boot.SpringApplication</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Sun, 21 May 2023 13:20:45 +0200" total_classes="26" referenced_classes="105" total_bugs="13" total_size="417" num_packages="11" java_version="12.0.2" vm_version="12.0.2+10" cpu_seconds="11.03" clock_seconds="93.15" peak_mbytes="240.33" alloc_mbytes="4066.00" gc_seconds="0.05" priority_3="2" priority_2="11">
+    <PackageStats package="ing" total_bugs="0" total_types="1" total_size="6">
+      <ClassStats class="ing.Application" sourceFile="Application.java" interface="false" size="6" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="ing.atmservice" total_bugs="0" total_types="2" total_size="22">
+      <ClassStats class="ing.atmservice.ATMServiceController" sourceFile="ATMServiceController.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="ing.atmservice.ATMServiceService" sourceFile="ATMServiceService.java" interface="false" size="14" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="ing.atmservice.comparators" total_bugs="2" total_types="2" total_size="12" priority_2="2">
+      <ClassStats class="ing.atmservice.comparators.ATMModelPriorityComparator" sourceFile="ATMModelPriorityComparator.java" interface="false" size="6" bugs="1" priority_2="1"/>
+      <ClassStats class="ing.atmservice.comparators.ATMModelRegionComparator" sourceFile="ATMModelRegionComparator.java" interface="false" size="6" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="ing.atmservice.model" total_bugs="0" total_types="3" total_size="67">
+      <ClassStats class="ing.atmservice.model.ATMModel" sourceFile="ATMModel.java" interface="false" size="25" bugs="0"/>
+      <ClassStats class="ing.atmservice.model.ATMModelDto" sourceFile="ATMModelDto.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="ing.atmservice.model.PriorityEnum" sourceFile="PriorityEnum.java" interface="false" size="22" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="ing.onlinegame" total_bugs="0" total_types="2" total_size="36">
+      <ClassStats class="ing.onlinegame.OnlineGameController" sourceFile="OnlineGameController.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="ing.onlinegame.OnlineGameService" sourceFile="OnlineGameService.java" interface="false" size="27" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="ing.onlinegame.schemas" total_bugs="8" total_types="6" total_size="80" priority_3="2" priority_2="6">
+      <ClassStats class="ing.onlinegame.schemas.Clan" sourceFile="Clan.java" interface="false" size="11" bugs="1" priority_3="1"/>
+      <ClassStats class="ing.onlinegame.schemas.Clan$ClansByNumberOfPlayersComparator" sourceFile="Clan.java" interface="false" size="7" bugs="1" priority_2="1"/>
+      <ClassStats class="ing.onlinegame.schemas.Clan$ClansByPointsComparator" sourceFile="Clan.java" interface="false" size="6" bugs="1" priority_2="1"/>
+      <ClassStats class="ing.onlinegame.schemas.Group" sourceFile="Group.java" interface="false" size="23" bugs="2" priority_3="1" priority_2="1"/>
+      <ClassStats class="ing.onlinegame.schemas.Order" sourceFile="Order.java" interface="false" size="14" bugs="1" priority_2="1"/>
+      <ClassStats class="ing.onlinegame.schemas.Players" sourceFile="Players.java" interface="false" size="19" bugs="2" priority_2="2"/>
+    </PackageStats>
+    <PackageStats package="ing.transactions.controllers" total_bugs="1" total_types="2" total_size="30" priority_2="1">
+      <ClassStats class="ing.transactions.controllers.AccountController" sourceFile="AccountController.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="ing.transactions.controllers.TransactionController" sourceFile="TransactionController.java" interface="false" size="16" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="ing.transactions.exceptions" total_bugs="0" total_types="1" total_size="7">
+      <ClassStats class="ing.transactions.exceptions.NoSuchAccountException" sourceFile="NoSuchAccountException.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="ing.transactions.repository" total_bugs="0" total_types="1" total_size="3">
+      <ClassStats class="ing.transactions.repository.TransactionRepository" sourceFile="TransactionRepository.java" interface="false" size="3" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="ing.transactions.schemas" total_bugs="2" total_types="4" total_size="110" priority_2="2">
+      <ClassStats class="ing.transactions.schemas.Account" sourceFile="Account.java" interface="false" size="50" bugs="0"/>
+      <ClassStats class="ing.transactions.schemas.Accounts" sourceFile="Accounts.java" interface="false" size="19" bugs="1" priority_2="1"/>
+      <ClassStats class="ing.transactions.schemas.Transaction" sourceFile="Transaction.java" interface="false" size="31" bugs="0"/>
+      <ClassStats class="ing.transactions.schemas.Transactions" sourceFile="Transactions.java" interface="false" size="10" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="ing.transactions.services" total_bugs="0" total_types="2" total_size="44">
+      <ClassStats class="ing.transactions.services.AccountService" sourceFile="AccountService.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="ing.transactions.services.TransactionService" sourceFile="TransactionService.java" interface="false" size="11" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.FindBugs2" totalMilliseconds="807" invocations="2" avgMicrosecondsPerInvocation="403948" maxMicrosecondsPerInvocation="661810" standardDeviationMicrosecondsPerInvocation="257861"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="361" invocations="747" avgMicrosecondsPerInvocation="484" maxMicrosecondsPerInvocation="16031" standardDeviationMicrosecondsPerInvocation="1088"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="142" invocations="752" avgMicrosecondsPerInvocation="189" maxMicrosecondsPerInvocation="7575" standardDeviationMicrosecondsPerInvocation="321"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="124" invocations="105" avgMicrosecondsPerInvocation="1182" maxMicrosecondsPerInvocation="13850" standardDeviationMicrosecondsPerInvocation="2435"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="85" invocations="105" avgMicrosecondsPerInvocation="814" maxMicrosecondsPerInvocation="10889" standardDeviationMicrosecondsPerInvocation="1754"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="71" invocations="381" avgMicrosecondsPerInvocation="188" maxMicrosecondsPerInvocation="3282" standardDeviationMicrosecondsPerInvocation="301"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="47" invocations="156" avgMicrosecondsPerInvocation="301" maxMicrosecondsPerInvocation="13897" standardDeviationMicrosecondsPerInvocation="1210"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="43" invocations="105" avgMicrosecondsPerInvocation="411" maxMicrosecondsPerInvocation="5117" standardDeviationMicrosecondsPerInvocation="858"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="36" invocations="105" avgMicrosecondsPerInvocation="349" maxMicrosecondsPerInvocation="6600" standardDeviationMicrosecondsPerInvocation="867"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="36" invocations="105" avgMicrosecondsPerInvocation="347" maxMicrosecondsPerInvocation="9013" standardDeviationMicrosecondsPerInvocation="998"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="32" invocations="120" avgMicrosecondsPerInvocation="272" maxMicrosecondsPerInvocation="7591" standardDeviationMicrosecondsPerInvocation="731"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="31" invocations="120" avgMicrosecondsPerInvocation="266" maxMicrosecondsPerInvocation="4591" standardDeviationMicrosecondsPerInvocation="474"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="30" invocations="120" avgMicrosecondsPerInvocation="257" maxMicrosecondsPerInvocation="20832" standardDeviationMicrosecondsPerInvocation="1887"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="30" invocations="120" avgMicrosecondsPerInvocation="256" maxMicrosecondsPerInvocation="9091" standardDeviationMicrosecondsPerInvocation="821"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
