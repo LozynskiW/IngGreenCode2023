@@ -1,4 +1,4 @@
-# README.md
+# README
 ## Application consists of 3 modules - each for another task of ING Green Code Copmpetition
 
 ### atmservice
